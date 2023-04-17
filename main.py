@@ -1,14 +1,14 @@
-from PyQt6 import  QtWidgets
+from PyQt6 import QtWidgets
 import ui
 import os
 import time
-import multiprocessing
+
 
 
 import sound
 
 
-class MainWindow(QtWidgets.QMainWindow, untitled_ui.Ui_MainWindow):
+class MainWindow(QtWidgets.QMainWindow, ui.Ui_MainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
         self.setupUi(self)

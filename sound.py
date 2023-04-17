@@ -1,5 +1,5 @@
 import pygame
-import os
+
 from mutagen import mp3, oggopus, wave
 
 
