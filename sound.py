@@ -1,8 +1,5 @@
 import pygame
 
-from mutagen import mp3, oggopus, wave
-
-
 
 class MusicPlayer():
     def __init__(self):
@@ -44,8 +41,3 @@ class MusicPlayer():
             pygame.mixer.music.play(-1,start=time)
         except:
             pass
-        
-
-    #def start_from(self):
-    #    pygame.mixer.music.load(self.music_path)
-    #    pygame.mixer.music.play(-1,start=)
