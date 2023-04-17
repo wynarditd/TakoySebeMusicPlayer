@@ -5,7 +5,7 @@ import time
 import multiprocessing
 
 
-from modules import sound
+import sound
 
 
 class MainWindow(QtWidgets.QMainWindow, untitled_ui.Ui_MainWindow):
