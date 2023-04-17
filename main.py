@@ -1,5 +1,5 @@
-from PyQt6 import QtCore, QtGui, QtWidgets, QtMultimedia
-import untitled_ui
+from PyQt6 import  QtWidgets
+import ui
 import os
 import time
 import multiprocessing
